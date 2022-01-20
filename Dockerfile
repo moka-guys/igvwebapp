@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:17
 
 ARG IGV_VERSION=1.7.0
 
