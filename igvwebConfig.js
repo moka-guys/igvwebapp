@@ -1,7 +1,7 @@
 var igvwebConfig = {
 
-    genomes: "resources/genomes.json",
-    trackRegistryFile: "resources/tracks/trackRegistry.json",
+    genomes: "igv/resources/genomes.json",
+    trackRegistryFile: "igv/resources/tracks/trackRegistry.json",
 
     // Supply a drobpox api key to enable the Dropbox file picker in the load menus.  This is optional
     //dropboxAPIKey: "...",
@@ -20,7 +20,7 @@ var igvwebConfig = {
         {
             genome: "hg19",
             locus: "all",
-            genomeList: "resources/genomes.json",
+            genomeList: "igv/resources/genomes.json",
             queryParametersSupported: true,
             showChromosomeWidget: true,
             showSVGButton: true,
