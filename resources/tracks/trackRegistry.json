@@ -1,0 +1,18 @@
+{
+  "hg19": [
+    "igv/resources/tracks/hg19_annotations.json",
+    "igv/resources/tracks/hg19_variants.json",
+    "igv/resources/tracks/hg19_encode.json",
+    "igv/resources/tracks/hg19_platinum_genomes.json",
+    "igv/resources/tracks/hg19_tutorials.json"
+  ],
+  "hg38": [
+    "igv/resources/tracks/hg38_annotations.json",
+    "igv/resources/tracks/hg38_encode.json"
+  ],
+  "hg38_1kg": [
+    "igv/resources/tracks/hg38_annotations.json",
+    "igv/resources/tracks/hg38_encode.json",
+    "igv/resources/tracks/hg38_1KG_lowCoverageCrams.json"
+  ]
+}
