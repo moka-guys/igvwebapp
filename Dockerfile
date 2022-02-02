@@ -13,8 +13,8 @@ RUN wget "https://igv.org/app-archive/igv-webapp.${IGV_VERSION}.zip" && \
 COPY igvwebConfig.js /igv
 
 # replace tracks and sessions with own
-RUN rm -rf /igv/resources
-COPY resources /igv
+RUN rm -rf /igv/resources/*
+COPY resources/ /igv/resources/
 
 # set working directory
 WORKDIR /igv
