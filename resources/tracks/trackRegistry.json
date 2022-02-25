@@ -1,5 +1,6 @@
 {
   "hg19": [
+    "igv/resources/dynamic/hg19_dnanexus.json",
     "igv/resources/tracks/hg19_annotations.json",
     "igv/resources/tracks/hg19_variants.json",
     "igv/resources/tracks/hg19_encode.json",

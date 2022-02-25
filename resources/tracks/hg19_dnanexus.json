@@ -1,0 +1,19 @@
+{  
+  "label": "DNAnexus tracks",
+  "type": "custom-data-modal",
+  "description": "BAM and VCF tracks from DNAnexus",
+
+  "columns": [
+    "name",
+    "project"
+  ],
+  "columnDefs": {
+    "name": {
+      "title": "Sample"
+    },
+    "project" : {
+      "title": "Project"
+    }
+  },
+  "data": "igv/resources/dynamic/hg19_dnanexus.csv"
+}
