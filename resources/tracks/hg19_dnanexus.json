@@ -5,14 +5,22 @@
 
   "columns": [
     "name",
-    "project"
+    "pan_num",
+    "project_name",
+    "folder"
   ],
   "columnDefs": {
     "name": {
       "title": "Sample"
     },
-    "project" : {
+    "pan_num": {
+      "title": "Panel"
+    },
+    "project_name": {
       "title": "Project"
+    },
+    "folder" : {
+      "title": "Folder"
     }
   },
   "data": "igv/resources/dynamic/hg19_dnanexus.csv"
