@@ -5,16 +5,12 @@
 
   "columns": [
     "name",
-    "pan_num",
     "project_name",
     "folder"
   ],
   "columnDefs": {
     "name": {
       "title": "Sample"
-    },
-    "pan_num": {
-      "title": "Panel"
     },
     "project_name": {
       "title": "Project"
