@@ -1,7 +1,7 @@
 FROM node:17
 
 # set version to be installed
-ARG IGV_VERSION=1.7.0
+ARG IGV_VERSION=1.10.8
 
 # install IGV app bundle
 WORKDIR /
