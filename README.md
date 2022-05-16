@@ -14,3 +14,7 @@ A DNAnexus track registry will be read from `/igv/resouorces/dynamic/hg19_dnanex
 name,project,url,indexURL
 ...
 ```
+
+# Testing
+a simplified test setup can be built and run with `test.sh`. It will serve an example `hg19_dnanexus.csv` track file that is placed in the `test` folder.
+When testing a new/revised instance, make sure to close and reopen the brower window and use an _icognito_ instance to avoid caching issues.

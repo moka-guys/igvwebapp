@@ -1,0 +1,6 @@
+{
+  "hg19": [
+    "resources/tracks/hg19_dnanexus.json",
+    "resources/tracks/hg19_annotations.json"
+  ]
+}
