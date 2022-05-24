@@ -12,6 +12,8 @@ RUN wget "https://igv.org/app-archive/igv-webapp.${IGV_VERSION}.zip" && \
 # add DNAnexus track resource
 COPY test/hg19_dnanexus.json /igv/resources/tracks
 COPY test/trackRegistry.json /igv/resources/tracks
+COPY sessionRegistry.json /igv/resources/sessions
+COPY resources/sessions/MSH2-rs193922376.json /igv/resources/sessions
 
 # set working directory
 WORKDIR /igv
