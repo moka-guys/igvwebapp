@@ -1,24 +1,9 @@
 {
 "sessions": [
   {
-    "name": "SKBR3 - Illumina (Schatz)",
-    "description": "SKBR3 - Illumina (Schatz)",
-    "url": "igv/resources/sessions/SKBR3-illumina-session.json"
-  },
-  {
-    "name": "SKBR3 - Pacbio (Schatz)",
-    "description": "SKBR3 - Pacbio (Schatz)",
-    "url": "igv/resources/sessions/SKBR3-pacbio-session.json"
-  },
-  {
-    "name": "SKBR3 - Sniffles and Delly VCF (Schatz)",
-    "description": "SKBR3 - Sniffles and Delly VCF (Schatz)",
-    "url": "igv/resources/sessions/SKBR3-vcf-session.json"
-  },
-  {
-    "name": "ChIA-Pet - Wei lab GSM3553630",
-    "description": "ChIA-Pet - Wei lab GSM3553630",
-    "url": "igv/resources/sessions/ChIA-Pet-GSM3553630.json"
+    "name": "MSH2 (rs193922376)",
+    "description": "MSH2 difficult variant assessment (rs193922376)",
+    "url": "igv/resources/sessions/MSH2-rs193922376.json"
   }
 ]
 }
