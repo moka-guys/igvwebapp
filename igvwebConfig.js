@@ -17,23 +17,23 @@ var igvwebConfig = {
     },
 
     igvConfig:
-        {
-            genome: "hg19",
-            locus: "all",
-            genomeList: "igv/resources/genomes.json",
-            queryParametersSupported: true,
-            showChromosomeWidget: true,
-            showSVGButton: true,
-            tracks: [
-	    // TODO -- add default tracks here.  See github.com/igvteam/igv.js/wiki for details.
-	    	// For example:
-                // {
-                //     name: "CTCF - string url",
-                //     type: "wig",
-                //     format: "bigwig",
-                //     url: "https://www.encodeproject.org/files/ENCFF563PAW/@@download/ENCFF563PAW.bigWig"
-                // }
-	    ]
-        }
+    {
+        genome: "hg19",
+        locus: "all",
+        genomeList: "igv/resources/genomes.json",
+        queryParametersSupported: true,
+        showChromosomeWidget: true,
+        showSVGButton: true,
+        tracks: [
+            // TODO -- add default tracks here.  See github.com/igvteam/igv.js/wiki for details.
+            // For example:
+            // {
+            //     name: "CTCF - string url",
+            //     type: "wig",
+            //     format: "bigwig",
+            //     url: "https://www.encodeproject.org/files/ENCFF563PAW/@@download/ENCFF563PAW.bigWig"
+            // }
+        ]
+    }
 
 }

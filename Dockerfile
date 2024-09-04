@@ -5,7 +5,7 @@ ARG IGV_VERSION=1.10.8
 
 # install IGV app bundle
 WORKDIR /
-RUN wget "https://igv.org/app-archive/igv-webapp.${IGV_VERSION}.zip" && \
+RUN wget "https://igv.org/app-archive/archive/igv-webapp.${IGV_VERSION}.zip" && \
     unzip "igv-webapp.${IGV_VERSION}.zip" && \
     mv "igv-webapp.${IGV_VERSION}" igv
 
